@@ -13,17 +13,19 @@ const controlRecipes = async function () {
     const id = window.location.hash.slice(1);
 
     if (!id) return;
+    recipeView.renderSpinner();
 
-    recipeView.renderSpinner(recipeContainer);
+    // 0) Update results view to mark selected search result
+    resultsView.update(model.getSearchResultsPage());
 
-    // 1) Loading recipe
+    // 2) Loading recipe
     await model.loadRecipe(id);
 
-    // 2) Rendering recipe
+    // 3) Rendering recipe
     recipeView.render(model.state.recipe);
   } catch (err) {
-    alert(err);
     recipeView.renderError();
+    console.error(err);
   }
 };
 
