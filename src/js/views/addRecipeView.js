@@ -42,5 +42,3 @@ class AddRecipeView extends View {
 }
 
 export default new AddRecipeView();
-
-console.log('object');

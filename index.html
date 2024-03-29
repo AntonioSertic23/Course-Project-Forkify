@@ -19,7 +19,12 @@
   <body>
     <div class="container">
       <header class="header">
-        <img src="src/img/logo.png" alt="Logo" class="header__logo" />
+        <img
+          src="src/img/logo.png"
+          alt="Logo"
+          class="header__logo"
+          crossorigin
+        />
         <form class="search">
           <input
             type="text"
@@ -67,13 +72,13 @@
                   <!-- <li class="preview">
                     <a class="preview__link" href="#23456">
                       <figure class="preview__fig">
-                        <img src="src/img/test-1.jpg" alt="Test" />
+                        <img src="src/img/test-1.jpg" alt="Test" crossorigin />
                       </figure>
                       <div class="preview__data">
                         <h4 class="preview__name">
                           Pasta with Tomato Cream ...
                         </h4>
-                        <p class="preview__publisher">The Pioneer Woman</p>
+                        <p class="preview__author">The Pioneer Woman</p>
                       </div>
                     </a>
                   </li> -->
@@ -115,7 +120,7 @@
 
         <!--
         <figure class="recipe__fig">
-          <img src="src/img/test-1.jpg" alt="Tomato" class="recipe__img" />
+          <img src="src/img/test-1.jpg" alt="Tomato" class="recipe__img" crossorigin />
           <h1 class="recipe__title">
             <span>Pasta with tomato cream sauce</span>
           </h1>
@@ -137,12 +142,12 @@
             <span class="recipe__info-text">servings</span>
 
             <div class="recipe__info-buttons">
-              <button class="btn--tiny btn--update-servings">
+              <button class="btn--tiny btn--increase-servings">
                 <svg>
                   <use href="src/img/icons.svg#icon-minus-circle"></use>
                 </svg>
               </button>
-              <button class="btn--tiny btn--update-servings">
+              <button class="btn--tiny btn--increase-servings">
                 <svg>
                   <use href="src/img/icons.svg#icon-plus-circle"></use>
                 </svg>
@@ -218,13 +223,13 @@
         <div class="upload__column">
           <h3 class="upload__heading">Recipe data</h3>
           <label>Title</label>
-          <input value="TEST" required name="title" type="text" />
+          <input value="TEST23" required name="title" type="text" />
           <label>URL</label>
-          <input value="TEST" required name="sourceUrl" type="text" />
+          <input value="TEST23" required name="sourceUrl" type="text" />
           <label>Image URL</label>
-          <input value="TEST" required name="image" type="text" />
+          <input value="TEST23" required name="image" type="text" />
           <label>Publisher</label>
-          <input value="TEST" required name="publisher" type="text" />
+          <input value="TEST23" required name="publisher" type="text" />
           <label>Prep time</label>
           <input value="23" required name="cookingTime" type="number" />
           <label>Servings</label>
