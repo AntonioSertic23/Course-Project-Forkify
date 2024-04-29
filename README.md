@@ -21,7 +21,7 @@ Forkify leverages cutting-edge technologies to deliver a robust and user-friendl
 - **JavaScript (ES6+)**: For implementing the application's core logic and interactivity.
 - **Webpack**: To bundle and manage the project's numerous JavaScript modules efficiently.
 
-[![My Skills](https://skills.thijs.gg/icons?i=html,css,js,webpack)](https://skills.thijs.gg)
+[![My Skills](https://skillicons.dev/icons?i=html,css,js,webpack)](https://skillicons.dev)
 
 ## Getting Started
 
